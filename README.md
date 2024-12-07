@@ -1,6 +1,23 @@
 # ***Share your Experience: Product Feedback Management***
 
-# Project Overview
+**Topic Contents**
+
+**I. Project Overview**
+
+**II. Explanation of how OOP principles were applied.**
+* **Encapsulation**
+* **Inheritance**
+* **Polymorphism**
+* **Abstraction**
+
+**III. Details of chosen SDG and its integration into the project.**
+
+**IV. Instruction in running the program.**
+
+
+
+
+# I. Project Overview
 
 Share your experience:  Product feedback system is a Java-based console application that allows users to give their experience on the products. This system has two forms, including rating and suggestion. This console application can also be used by administrators to take updates on the given feedback. The main goal of this system is to gather the product weaknesses to address for better production and improving customer satisfaction.
 
