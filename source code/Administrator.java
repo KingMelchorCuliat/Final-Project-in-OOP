@@ -38,7 +38,7 @@ public class Administrator {
 
             switch (choice) {
                 case 1:
-                    Feedback.viewAllFeedback(feedbackList); // View all feedback
+                    Feedback.viewAllFeedback(feedbackList);
                     break;
                 case 2:
                     updateFeedbackStatus(scanner, feedbackList);
