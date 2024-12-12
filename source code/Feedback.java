@@ -63,32 +63,7 @@ public class Feedback {
         return choice;
     }
 
-     public static int provideFeedbackForProduct(Scanner scanner, List<Furnitures> availableFurniture) {
-        System.out.println("\nAvailable Furniture Products:");
-        for (int i = 0; i < availableFurniture.size(); i++) {
-            System.out.printf("%d. %s\n", i + 1, availableFurniture.get(i).getDescription());
-        }
-
-        int choice = -1;
-        boolean validInput = false;
-
-        while (!validInput) {
-            System.out.print("Select the product you want to provide feedback for (1 to " + availableFurniture.size() + "): ");
-            
-            try {
-                choice = Integer.parseInt(scanner.nextLine());
-
-                if (choice >= 1 && choice <= availableFurniture.size()) {
-                    validInput = true;
-                } else {
-                    System.out.println("Invalid input. Please choose a number between 1 and " + availableFurniture.size() + ".");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input. Please enter a valid number.");
-            }
-        }
-        return choice;
-    }
+     
 
     public static void submitFeedback(Scanner scanner, List<Feedback> feedbackList) {
         System.out.print("Enter a username or type Anonymous: ");
